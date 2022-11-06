@@ -19,7 +19,7 @@ def arithmetic_operation(request):
     elif operation_type == 'multiplication':
         result = x * y
     context = {
-        "slackUsername": "Tech-matt",
+        "slackUsername": "Lorpeh",
         "operation_type": operation_type,
         "result": result
     }
